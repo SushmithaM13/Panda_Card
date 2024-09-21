@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .main-title {
+            text-align: left;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .card-title {
+            text-align: left;
+            font-family: 'Press Start 2P', cursive; 
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .panda {
+            width: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        
+        .card-content .name {
+            font-size: 1.25rem;
+            color: #6a8a3b;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .card-content .course,
+        .card-content .year {
+            font-size: 1rem;
+            color: #333;
+            margin: 5px 0;
+        }
+        
+        .rating {
+            font-size: 1.5rem;
+            color: black;
+            margin-top: 10px;
+        }
+        
+        .rating span {
+            padding: 0 2px;
+        }
+        
+     </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Title</h1>
+        <h2 class="card-title">Panda Card</h2>
+
+        <div class="card">
+            <img class="panda" src="https://t4.ftcdn.net/jpg/05/54/52/13/360_F_554521329_ngmDQSjSrUSRnbK2xK0bkcprsinG9Xdv.jpg"
+    alt="panda"
+            <div class="card-content">
+                <h3 class="name">John Doe</h3>
+                <p class="course">Computer Science 1</p>
+                <p class="course">Computer Science 2</p>
+                <p class="year">Year: 3</p>
+                <div class="rating">
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
